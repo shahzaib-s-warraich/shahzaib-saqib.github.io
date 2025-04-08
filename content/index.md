@@ -5,8 +5,9 @@ nocite: '@*'
 
 # About me
 
-Hello! I am a MS student at USC, advised by Swabha Swa­yam­dip­ta. Previously, I was a Research Engineer at Retrocausal, and before that I studied EECS at NUST. 
-My current research focuses on improving language modeling, sampling, and interpretability methods by building and exploiting our theoretical understanding of neural language models. 
+Hello! I am a MS student at USC, advised by Dr. Swabha Swa­yam­dip­ta and mentored by Sayan Ghosh. Previously, I was a Research Engineer at Retrocausal, and before that I studied EECS at NUST. 
+
+I am currently interested in the intersection of LLMs, Interpretability, Evaluation, Reasoning, and Preference Tuning. 
 
 # Publications
 
