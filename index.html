@@ -44,7 +44,15 @@
         <h2 id=News>News</h2>
         <table>
           <tr>
-            <td><time>Jun&nbsp;2025</time></td>
+            <td><time>Sep&nbsp;2025</time></td>
+            <td>Acceptance of Sample, Align, Synthesize: Graph-Based Response Synthesis with ConGrs at ER@NeurIPS 2025.</td>
+          </tr>
+          <tr>
+            <td><time>July&nbsp;2025</time></td>
+            <td>Acceptance of Sample, Align, Synthesize: Graph-Based Response Synthesis with ConGrs at SCALR@COLM 2025.</td>
+          </tr>
+          <tr>
+            <td><time>May&nbsp;2025</time></td>
             <td>Joined Paramount+ as a Data Science Intern.</td>
           </tr>
           <tr>
@@ -68,8 +76,17 @@
           </table>
       </section>
       <section>
-          <h2 id=Publications>Preprints & publications</h2>
-          <p>  
-           To be updated soon
-          </p>
-        
+        <h2 id=Publications>Preprints & publications</h2>
+        <article>
+        <h3>Sample, Align, Synthesize: Graph-Based Response Synthesis with ConGrs</h3>
+        <p class="authors">
+        Sayan Ghosh, <strong>Shahzaib Saqib Warraich</strong>, Dhruv Tarsadiya, Gregory Yauney, Swabha Swayamdipta
+        </p>
+        <p class="venue">
+        ER@NeurIPS 2025, SCALR@COLM 2025
+        </p>
+        <p class="abstract">
+        Language models can be sampled multiple times to access the distribution underlying their responses, but existing methods cannot efficiently synthesize rich epistemic signals across different long-form responses. We introduce Consensus Graphs (ConGrs), a flexible DAG-based data structure that represents shared information, as well as semantic variation in a set of sampled LM responses to the same prompt. We construct ConGrs using a light-weight lexical sequence alignment algorithm from bioinformatics, supplemented by the targeted usage of a secondary LM judge. Further, we design task-dependent decoding methods to synthesize a single, final response from our ConGr data structure. Our experiments show that synthesizing responses from ConGrs improves factual precision on two biography generation tasks by up to 31% over an average response and reduces reliance on LM judges by more than 80% compared to other methods. We also use ConGrs for three refusal-based tasks requiring abstention on unanswerable queries and find that abstention rate is increased by up to 56%. We apply our approach to the MATH and AIME reasoning tasks and find an improvement over self-verification and majority vote baselines by up to 6 points of accuracy. We show that ConGrs provide a flexible method for capturing variation in LM responses and using the epistemic signals provided by response variation to synthesize more effective responses.
+        </p>
+        </article>
+        </section>
