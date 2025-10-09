@@ -286,9 +286,24 @@ article h3 {
   color: #666;
 }
 
+
 .abstract {
   margin-top: 0.5em;
   text-align: justify;
+}
+
+.links {
+  margin: 0.3em 0;
+}
+
+.links a {
+  margin-right: 1em;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
 }
 
 
