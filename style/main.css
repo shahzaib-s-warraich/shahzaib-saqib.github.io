@@ -49,8 +49,10 @@ nav {
 }
 
 header img {
-  border-radius: 50%;
-  width: 75pt;
+  border-radius: 0;  /* Remove circular crop */
+  width: 100%;       /* Make it full width */
+  max-width: 100%;   /* Ensure it doesn't overflow */
+  height: auto;      /* Maintain aspect ratio */
 }
 
 aside {
