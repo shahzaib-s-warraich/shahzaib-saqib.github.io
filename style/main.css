@@ -325,9 +325,10 @@ article h3 {
 
 @media (prefers-color-scheme: dark) {
   :root{
-    --bg1: var(--bg1-d);
-    --fg1: var(--fg1-d);
-    --bg2: var(--bg2-d);
-    --fg2: var(--fg2-d);
-    --link-color: var(--link-color-d);
+    --bg1: var(--bg1-l);
+    --fg1: var(--fg1-l);
+    --bg2: var(--bg2-l);
+    --fg2: var(--fg2-l);
+    --link-color: var(--link-color-l);
+  }
 }
