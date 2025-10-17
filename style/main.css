@@ -36,10 +36,10 @@ body {
 /* Drop cap styling */
 main section:first-of-type p:first-of-type::first-letter {
   float: left;
-  font-size: 4em;
+  font-size: 3.5em;
   line-height: 0.9;
-  margin-right: 0.1em;
-  margin-top: 0.1em;
+  margin-right: 0.08em;
+  margin-top: 0.05em;
   font-weight: bold;
 }
 
