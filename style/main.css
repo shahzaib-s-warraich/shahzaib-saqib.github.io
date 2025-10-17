@@ -1,8 +1,8 @@
 :root{
   --bg1-l: #FFF8F0;
-  --bg2-l: #e5e5e5;
+  --bg2-l: #F5EAD8;
   --fg1-l: #000;
-  --fg2-l: #666;
+  --fg2-l: #333;
   --link-color-l: #0062cc; 
   --bg1-d: #000;
   --bg2-d: #333;
@@ -41,6 +41,10 @@ main section:first-of-type p:first-of-type::first-letter {
   margin-right: 0.1em;
   margin-top: 0.1em;
   font-weight: bold;
+}
+
+.smallcaps {
+  font-variant: small-caps;
 }
 
 summary, cite, time, nav li, td li, ol ul, ol > li:before {
@@ -225,7 +229,7 @@ li p {
 details p {
   margin-top: 0.5rem;
   padding: 0.5rem;
-  background-color: #f2f2f2;
+  background-color: #F5EAD8;
   border-radius: 0.25rem;
 }
 
