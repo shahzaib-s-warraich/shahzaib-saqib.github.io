@@ -1,7 +1,7 @@
 :root{
-  --bg1-l: #FFF;
+  --bg1-l: #FFF8F0;
   --bg2-l: #e5e5e5;
-  --fg1-l: #444;
+  --fg1-l: #000;
   --fg2-l: #666;
   --link-color-l: #0062cc; 
   --bg1-d: #000;
@@ -304,6 +304,15 @@ article h3 {
 
 .links a:hover {
   text-decoration: underline;
+}
+
+/* Drop cap styling */
+main section:first-of-type p:first-of-type::first-letter {
+  float: left;
+  font-size: 4em;
+  line-height: 0.9;
+  margin-right: 0.1em;
+  margin-top: 0.1em;
 }
 
 
